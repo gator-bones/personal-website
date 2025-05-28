@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Nav from './component/nav/nav';
 import Home from './pages/home/home';
 import About from './pages/about/about';
-import Byf from './pages/about/byf_dni';
+import Byf from './pages/about/byf_dni/byf';
 import Friend from './pages/about/friends/friends';
 import Quote from './pages/about/quotes/quotes';
 import Treasure from './pages/about/treasures/treasures';
