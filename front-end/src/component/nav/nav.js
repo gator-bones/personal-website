@@ -1,11 +1,17 @@
 import React from "react";
+import "./nav.css";
 
 const Nav = () => {
-    return (
-        <div>
-            <h1>Nav</h1>
-        </div>
-    )
-}
+  return (
+    <div className="nav-box">
+      <h2 className="flicker-text">NAVIGATION</h2>
+      <ul>
+        <li><a href="/home.js">Home</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/guestbook">Guestbook</a></li>
+      </ul>
+    </div>
+  );
+};
 
-export default Nav
+export default Nav;
