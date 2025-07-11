@@ -10,6 +10,7 @@ const Home = () => {
                     <img src='./images/blinkies/something_fishy.gif' alt='fish' />
                     <img src='./images/blinkies/toxic_mold.gif' alt='toxic mold babee' />
                     <img src='./images/blinkies/da_blinkie.gif' alt='da blinkie?!' />
+                    <img src='./images/blinkies/i_miss_her_tails.jpg' alt='i miss her tails' />
                 </div>
             </div>
             <div className='home-container'>
@@ -24,6 +25,16 @@ const Home = () => {
                     see what happens !
                     - g
                 </p>
+            </div>
+            <div className='half-width'>
+            <section>
+                <h2>MESSAGE BOARD</h2>
+            </section>
+            <section>
+                <h2>TO-DO LIST</h2>
+                    <ul className='todo-list'>
+                    </ul>
+            </section>
             </div>
         </div>
     )
