@@ -44,14 +44,9 @@
 }
 
 .nav-box a:hover {
-    background-color: #ADD8E6;
+    background-color: #0aa1d3;
     border-color: #00568C;
     transform: none;
-}
-
-.nav-box a:hover img {
-    transform: scale(1.05) translateX(5px);
-    filter: brightness(1.1);
 }
 
 .nav-box a:active {
