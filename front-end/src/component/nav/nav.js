@@ -4,9 +4,13 @@ import "./nav.css";
 const Nav = () => {
   return (
     <div className="nav-box">
-      <h2 className="flicker-text">NAVIGATION</h2>
+      <h2 className="nav-text">NAVIGATION</h2>
       <ul>
-        <li><a href="/">Home</a></li>
+        <li>
+          <a href="/">
+            <img src="./images/buttons/home_navBtn.png" alt="home" />
+          </a>
+        </li>
         <li><a href="/about">About GATOR</a></li>
         <li><a href="/friends">Friends</a></li>
         <li><a href="/byf_dni">Interactions</a></li>

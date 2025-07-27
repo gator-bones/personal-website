@@ -13,12 +13,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        {/* CRT visual overlays */}
-        <div className="scanlines" />
-        <div className="noise" />
 
-        {/* Your site content */}
-        <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Project />} />
