@@ -4,10 +4,14 @@
 
 .nav-box h2 {
     color: #00568C;
-    font-size: 1.4em;
+    font-size: 1.6em;
     margin-bottom: 20px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
     text-align: center;
+}
+
+.nav-title {
+    font-family: 'Seaweed Script', cursive;
 }
 
 .nav-box ul {
@@ -44,7 +48,7 @@
 }
 
 .nav-box a:hover {
-    background-color: #0aa1d3;
+    background-color: #0864db;
     border-color: #00568C;
     transform: none;
 }
