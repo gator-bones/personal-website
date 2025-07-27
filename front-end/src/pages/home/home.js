@@ -47,9 +47,7 @@ const Home = () => {
                     <div className='aquarium-column sidebar-column'>
                         <h2>TO-DO LIST</h2>
                         <ul className='todo-list'>
-                            <li>Learn CSS Grid</li>
-                            <li>Add more blinkies</li>
-                            <li>Feed the virtual fish</li>
+                            <li>fih</li>
                         </ul>
                     </div>
                 </div>
