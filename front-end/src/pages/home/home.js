@@ -32,15 +32,19 @@ const Home = () => {
                                 hello ! welcome to my corner of the web. this
                                 is my personal website, which is where i will
                                 say <i>many</i> things about my interests and what's
-                                happening in my life. this website is constantly
-                                being updated, so feel free to look around. there's
-                                (hopefully) lots to find here, so click around and
-                                see what happens !
-                                - g
+                                happening in my life. i'll try and update this site
+                                as often as i can, but i'm probably gonna forget.
+                                if something's broken, i'll try and fix it as soon
+                                as i can !
                             </p>
                         </div>
                         <div className='welcome-message-box'>
-                            <h2>MESSAGE BOARD</h2>
+                            <h3>
+                            WHAT'S NEW <span style={{ float: 'right' }}>mm/dd/yyyy</span>
+                            </h3>
+                            <ul className='welcome-list'>
+                                <li>fix this</li>
+                            </ul>
                         </div>
                     </div>
 
