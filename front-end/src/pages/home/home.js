@@ -43,7 +43,8 @@ const Home = () => {
                             WHAT'S NEW <span style={{ float: 'right' }}>mm/dd/yyyy</span>
                             </h3>
                             <ul className='welcome-list'>
-                                <li>fix this</li>
+                                <li>7/27/2025 - i added a footer :)</li>
+                                <li>7/27/2025 - i did something else</li>
                             </ul>
                         </div>
                     </div>
