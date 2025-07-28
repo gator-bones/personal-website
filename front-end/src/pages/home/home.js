@@ -58,7 +58,11 @@ const Home = () => {
                 </div>
 
                 <div className='site-footer'>
-                    <p>created: 2025</p>
+                    <p>
+                    created: 2025
+                    <img src='./images/decor/fishDividerFooter.png' alt='fish divider'></img>
+                    site updated: 7/27/2025
+                    </p>
                 </div>
             </div>
 
