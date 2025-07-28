@@ -52,10 +52,13 @@ const Home = () => {
                         <h2>TO-DO LIST</h2>
                         <ul className='todo-list'>
                             <li>fih</li>
-                            <li>fix the fish nav buttons</li>
                             <li>add a button that opens up every movie that has dinosaurs</li>
                         </ul>
                     </div>
+                </div>
+
+                <div className='site-footer'>
+                    <p>created: 2025</p>
                 </div>
             </div>
 
