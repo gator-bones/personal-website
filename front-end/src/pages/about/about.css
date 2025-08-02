@@ -156,12 +156,38 @@ body {
     max-width: 20%;
     height: auto;
     border: 2px solid #00568C;
-    border-radius: 10px;
+    border-radius: 55px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 8px rgba(1, 0, 8, 0.11);
+    margin-bottom: 20px;
 }
 
 .sidebar-column {
     text-align: left;
+}
+
+.about-me-container {
+    padding: 20px;
+    text-align: left;
+}
+
+.about-info-grid {
+    display:grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.about-label {
+    font-weight: bold;
+    color: #ADD8E6;
+    padding-right: 10px;
+}
+
+.about-info {
+    color: #deeaee;
+    word-wrap: break-word;
 }
 
 .site-footer {

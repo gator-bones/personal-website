@@ -26,10 +26,46 @@ const About = () => {
                     </div>
 
                     <div className='aquarium-column main-content-column'>
-                        <img src='./images/about/rainbowCat.jpg' alt='rainbow cat' />
-                        <p>
-                            my name's gator! 
-                        </p>
+                    <div className='about-me-container'>
+                        <img src='./images/about/sponge_icon1.jpg' alt='icon' />
+                        
+                        <div className='about-info-grid'>
+                            <div className='about-label'>NAME:</div>
+                            <div className='about-info'>gator</div>
+
+                            <div className='about-label'>ALIASES:</div>
+                            <div className='about-info'>swamp / fish / Thing</div>
+
+                            <div className='about-label'>AGE:</div>
+                            <div className='about-info'>20</div>
+
+                            <div className='about-label'>MBTI:</div>
+                            <div className='about-info'>infp-t</div>
+
+                            <div className='about-label'>ZODIAC:</div>
+                            <div className='about-info'>leo</div>
+
+                            <div className='about-label'>TIMEZONE:</div>
+                            <div className='about-info'>MST</div>
+
+                            <div className='about-label'>ANIMAL:</div>
+                            <div className='about-info'>microraptor / mole</div>
+
+                            <div className='about-label'>SEASON:</div>
+                            <div className='about-info'>summer / winter</div>
+
+                            <div className='about-label'>FAV COLORS:</div>
+                            <div className='about-info'>dark purple / green</div>
+
+                            <div className='about-label'>REL. STATUS:</div>
+                            <div className='about-info'>single</div>
+
+
+
+                        </div>
+                    </div>
+                        
+
                     </div>
                     
                     <div className='aquarium-column sidebar-column'>
@@ -40,7 +76,7 @@ const About = () => {
                     </div>
                     
                     <div className='aquarium-column sidebar-column'>
-                        <h2>LINKS !</h2>
+                        <h2>idk yet</h2>
                         <ul className='todo-list'>
                         </ul>
                     </div>
@@ -50,7 +86,7 @@ const About = () => {
                     </div>
 
                     <div className='aquarium-column sidebar-column'>
-                        <h2>LINKS !</h2>
+                        <h2>MUSIC !</h2>
                         <ul className='todo-list'>
                         </ul>
                     </div>
@@ -65,8 +101,8 @@ const About = () => {
                 </div>
             </div>
 
-            <img src='./images/decor/loserTag.png' 
-            alt='loser tag' className='loser-tag' />
+            {/* <img src='./images/decor/loserTag.png' 
+            alt='loser tag' className='loser-tag' /> */}
         </div>
     );
 }
